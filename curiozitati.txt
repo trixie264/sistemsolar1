@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Curiozități</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    .menu-links {
+      margin-top: 30px;
+    }
+    .menu-links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .menu-links a:hover {
+      background-color: #555;
+    }
+    .curiozitati-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .curiozitate {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: left;
+      transition: transform 0.3s ease-in-out;
+    }
+    .curiozitate:hover {
+      transform: scale(1.05);
+    }
+    .curiozitate h3 {
+      color: #333;
+    }
+    .curiozitate p {
+      font-size: 16px;
+      color: #555;
+    }
+    img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Curiozități Fascinante Despre Univers</h1>
+
+  <!-- Imagine la începutul secțiunii -->
+  <img src="curiozitati.jpg" alt="Curiozități Univers" />
+
+  <div class="curiozitati-container">
+    <div class="curiozitate">
+      <h3>🌍 Pământul se rotește în jurul axei sale</h3>
+      <p>Pământul se rotește în jurul axei sale la o viteză de aproximativ 1670 km/h la ecuator, dar nu simțim acest lucru datorită gravitației și atmosferei care se mișcă împreună cu planeta.</p>
+    </div>
+
+    <div class="curiozitate">
+      <h3>💫 Viteza luminii</h3>
+      <p>Viteza luminii în vid este de aproximativ 299.792 km pe secundă, iar lumina de la Soare ajunge pe Pământ în doar 8 minute și 20 de secunde.</p>
+    </div>
+
+    <div class="curiozitate">
+      <h3>🪐 Există un ocean sub suprafața lui Europa</h3>
+      <p>Europa, o lună a lui Jupiter, este acoperită de gheață, dar se crede că sub suprafața sa există un ocean global de apă lichidă care ar putea găzdui forme de viață.</p>
+    </div>
+
+    <div class="curiozitate">
+      <h3>🌌 Universul se extinde</h3>
+      <p>Conform teoriei Big Bang-ului, universul s-a format acum aproximativ 13,8 miliarde de ani și continuă să se extindă, iar galaxiile se îndepărtează unele de altele.</p>
+    </div>
+  </div>
+
+  <!-- Imagine la finalul secțiunii -->
+  <img src="curiozitati1.jpg" alt="Curiozități Univers 2" />
+
+  <div class="menu-links">
+    <a href="index.html">Acasă</a>
+    <a href="planete.html">Planete</a>
+    <a href="soare.html">Soarele</a>
+    <a href="curiozitati.html">Curiozități</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</body>
+</html>

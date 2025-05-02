@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistemul Solar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    .menu-links {
+      margin-top: 30px;
+    }
+    .menu-links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .menu-links a:hover {
+      background-color: #555;
+    }
+    img {
+      width: 35%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bine ai venit în Sistemul Solar</h1>
+  <p>Explorează planetele, Soarele și curiozitățile spațiului!</p>
+  <img src="sistemsolar.jpg" alt="Sistemul Solar poza">
+  <div class="menu-links">
+    <a href="index.html">Acasă</a>
+    <a href="planete.html">Planete</a>
+    <a href="soare.html">Soarele</a>
+    <a href="curiozitati.html">Curiozități</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</body>
+</html>

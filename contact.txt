@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #555;
+    }
+    .menu-links {
+      margin-top: 30px;
+    }
+    .menu-links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .menu-links a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contactează-ne</h1>
+
+  <form action="https://formspree.io/f/movdejpd" method="POST">
+    <input type="text" name="nume" placeholder="Numele tău" required>
+    <input type="email" name="email" placeholder="Adresa ta de email" required>
+    <textarea name="mesaj" placeholder="Scrie mesajul tău aici..." rows="6" required></textarea>
+    <button type="submit">Trimite mesajul</button>
+  </form>
+
+  <div class="menu-links">
+    <a href="index.html">Acasă</a>
+    <a href="planete.html">Planete</a>
+    <a href="soare.html">Soarele</a>
+    <a href="curiozitati.html">Curiozități</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</body>
+</html>
+
